@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+}
+nav {
+    background-color: pink;
+    width: 150px;
+    height: 600px;
+}
+header {
+    background-color: bisque;
+    height: 150px;
+    width: 1115px;
+}
+article {
+    flex: 2;
+}
+aside {
+    flex: 1;
+    background-color: aqua;
+}
+footer {
+    background-color: bisque;
+    height: 150px;
+}
+.ABC {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    height: 300px;
+}
